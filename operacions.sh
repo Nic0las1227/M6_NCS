@@ -11,11 +11,7 @@ read num2
 suma=$((num1 + num2))
 resta=$((num1 - num2))
 multiplicacio=$((num1 * num2))
-if [ $num2 -ne 0 ]; then
-    divisio=$((num1 / num2))
-else
-    divisio="No es pot dividir per 0"
-fi
+divisio=$((num1 / num2))
 modul=$((num1 % num2))
 potencia=$((num1 ** num2))
 
